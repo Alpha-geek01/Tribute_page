@@ -1,0 +1,136 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    #main {
+        background: url(https://images8.alphacoders.com/374/thumb-1920-374852.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+        font-family: "Poppins", sans-serif;
+    }
+    .layout {
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-top: 60px;
+        display: grid;
+        grid-gap: 10px;
+        align-items: center;
+    }
+    
+    .titlediv {
+        width: 100%;
+        text-align: center;
+        border-radius: 15px;
+        background-color: #facfad;
+      }
+    
+    #title {
+      font-size: 2.6em;
+      margin-top: 10px;
+      margin-bottom: -15px;
+    }
+
+    #subtitle {
+        font-size: 1.2em;
+        margin-top: 20px;
+        margin-bottom: 15px;
+      }
+    
+    #img-caption {
+      font-size: 20px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding-left: 250px;
+      padding-right: 250px;
+    }
+
+    #image-div{
+        margin-top: 120px;
+    }
+    
+    #image {
+      display: block;
+      border-radius: 50%;
+      height: 500px;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #tribute-info {
+        grid-area: words;
+        color: #fff;
+        text-justify: center;
+        padding-top: 35%;
+        padding-bottom: 20%;
+      }
+
+    #quote{
+        text-align:center; 
+        font-size: 70px; 
+        margin-bottom: 10px;
+    }
+    
+    .company__name {
+      margin-top: 30px;
+      font-size: 40px;
+    }
+    
+    .content__image {
+        width: 260px;
+        height: 200px;
+    }
+
+    .flex {
+        padding: 0 260px 0 200px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 15px;
+        text-align: left;
+    }
+
+    .flex__reverse {
+      padding: 0 260px 0 200px;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-evenly;
+      gap: 15px;
+      text-align: left;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-rows: auto;
+    }
+
+    #more {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 18px;
+    }
+
+    #tribute-link{
+      text-decoration: none;
+    }
+
+    #footer {
+      background-color: #000000;
+      color: #fff;
+      width: 100%;
+      height: auto;
+      margin-top: 50px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: center;
+      font-size: 50px;
+      border-radius: 20px 20px 0 0;
+    }
